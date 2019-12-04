@@ -12,14 +12,14 @@ function App() {
       <Router>
         <div>
           <nav>
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <Link class="nav-link" to="/login">
+            <ul className="nav nav-pills">
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">
                   Login
                 </Link>
               </li>
               <li>
-                <Link class="nav-link" to="/register">
+                <Link className="nav-link" to="/register">
                   Register
                 </Link>
               </li>
